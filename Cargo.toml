@@ -30,8 +30,8 @@ targets = [
 default = [ "rwh_06" ]
 serde = [ "dep:serde", "dpi/serde" ]
 
-[workspace]
-members = [ "tao-macros" ]
+# [workspace]
+# members = [ "tao-macros" ]
 
 [dependencies]
 instant = "0.1"
